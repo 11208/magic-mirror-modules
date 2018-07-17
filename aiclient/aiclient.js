@@ -33,7 +33,7 @@ Module.register("aiclient",{
 		var wrapper = document.createElement("div");
 		var img = document.createElement("img");
 		img.id = "img";
-		img.src = this.file("public/sound_wave.gif")
+		img.src = this.file("public/face.gif")
 		wrapper.appendChild(img);
 		return wrapper
 	},
